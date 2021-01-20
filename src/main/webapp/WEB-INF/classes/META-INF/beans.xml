@@ -1,0 +1,6 @@
+<beans>
+	<interceptors>
+		<class>br.com.alura.livraria.tx.FakeTransactionManager</class>
+		<class>br.com.alura.livraria.log.LogInterceptor</class>
+	</interceptors>
+</beans>
